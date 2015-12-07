@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
 
   	s.xcconfig = {
             "GCC_PREPROCESSOR_DEFINITIONS" => "PJ_AUTOCONF=1",
-#            "FRAMEWORK_SEARCH_PATHS"  => "$(PODS_ROOT)/VialerSIPLib.framework/Headers"
+            "HEADER_SEARCH_PATHS"  => "$(PODS_ROOT)/VialerPJSIP.framework/Headers"
   	}
 end
