@@ -32,5 +32,4 @@ Pod::Spec.new do |s|
 
 	s.dependency 'Vialer-pjsip-iOS'
 	s.dependency 'CocoaLumberjack', '~> 2.2'
-        s.dependency 'Reachability'
 end
